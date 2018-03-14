@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Cartography
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
   
@@ -44,13 +43,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return 1
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "FindTicketCell", for: indexPath as IndexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "FindTicketCell", for: indexPath as IndexPath) as! FindTicketCell
         cell.selectionStyle = UITableViewCellSelectionStyle.none
         cell.backgroundColor = UIColor(red:0.98, green:0.98, blue:0.98, alpha:1.0)
+        
+        cell.findBtn.addTarget(self, action: #selector(ViewController.findButtonHandler(_:)), for: .touchUpInside)
+        
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return view.frame.height
+    }
+    @objc func findButtonHandler(_ sender: Any?){
+        let newViewController = TicketController()
+        self.navigationController?.pushViewController(newViewController, animated: true)
     }
     
     

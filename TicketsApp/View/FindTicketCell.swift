@@ -95,9 +95,10 @@ class FindTicketCell : UITableViewCell, UIPickerViewDelegate, UIPickerViewDataSo
         datePicker.isEnabled = true
         datePicker.backgroundColor = UIColor.white
         datePicker.layer.cornerRadius = 15.0
-//        let currentDate = NSDate()
-//        datePicker.minimumDate = currentDate as Date
-//        datePicker.date = currentDate as Date
+        
+        let currentDate = NSDate()
+        datePicker.minimumDate = currentDate as Date
+        datePicker.date = currentDate as Date
         
         
         returnFlightField.placeholder = "Обртный рейс"
@@ -124,9 +125,8 @@ class FindTicketCell : UITableViewCell, UIPickerViewDelegate, UIPickerViewDataSo
         //findBtn.tintColor = UIColor.white
         findBtn.setTitle("Найти билет", for: .normal)
         findBtn.contentHorizontalAlignment = .center
-//        findBtn.addTarget(self, action: "findButtonHandler", for: UIControlEvents.touchUpInside)
-        
     }
+    
     func addView(){
         self.addSubview(fromCityLabel)
         self.addSubview(toCityLabel)
@@ -243,6 +243,7 @@ class FindTicketCell : UITableViewCell, UIPickerViewDelegate, UIPickerViewDataSo
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return dataType[row]
     }
+    
 }
 
 class TextField: UITextField {
@@ -256,10 +257,6 @@ class TextField: UITextField {
     }
     override func editingRect(forBounds bounds: CGRect) -> CGRect {
         return UIEdgeInsetsInsetRect(bounds, padding)
-    }
-    
-    func findButtonHandler(sender: UIButton){
-     print("HHHHHHHHELLLO")
     }
 }
 

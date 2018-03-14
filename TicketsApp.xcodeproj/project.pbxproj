@@ -13,6 +13,9 @@
 		99628C062058F615001059CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99628C052058F615001059CD /* Assets.xcassets */; };
 		99628C092058F615001059CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99628C072058F615001059CD /* LaunchScreen.storyboard */; };
 		99628C112059194E001059CD /* FindTicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99628C102059194E001059CD /* FindTicketCell.swift */; };
+		99DFC8EF205985690099489E /* TicketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DFC8EE205985690099489E /* TicketController.swift */; };
+		99DFC8F4205986CD0099489E /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DFC8F3205986CD0099489E /* TicketModel.swift */; };
+		99DFC8F6205991B40099489E /* TicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DFC8F5205991B40099489E /* TicketCell.swift */; };
 		A3ABE07439ACDBA846F5337E /* Pods_TicketsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A3E5602E023152993BE83C /* Pods_TicketsApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +31,9 @@
 		99628C082058F615001059CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99628C0A2058F615001059CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99628C102059194E001059CD /* FindTicketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTicketCell.swift; sourceTree = "<group>"; };
+		99DFC8EE205985690099489E /* TicketController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketController.swift; sourceTree = "<group>"; };
+		99DFC8F3205986CD0099489E /* TicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
+		99DFC8F5205991B40099489E /* TicketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,15 +69,42 @@
 		99628BFD2058F615001059CD /* TicketsApp */ = {
 			isa = PBXGroup;
 			children = (
+				99DFC8F2205986AE0099489E /* Model */,
+				99DFC8F1205986A80099489E /* View */,
+				99DFC8F02059869E0099489E /* Controller */,
 				99628BFE2058F615001059CD /* AppDelegate.swift */,
-				99628C002058F615001059CD /* ViewController.swift */,
 				99628C022058F615001059CD /* Main.storyboard */,
 				99628C052058F615001059CD /* Assets.xcassets */,
 				99628C072058F615001059CD /* LaunchScreen.storyboard */,
 				99628C0A2058F615001059CD /* Info.plist */,
-				99628C102059194E001059CD /* FindTicketCell.swift */,
 			);
 			path = TicketsApp;
+			sourceTree = "<group>";
+		};
+		99DFC8F02059869E0099489E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99628C002058F615001059CD /* ViewController.swift */,
+				99DFC8EE205985690099489E /* TicketController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99DFC8F1205986A80099489E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99628C102059194E001059CD /* FindTicketCell.swift */,
+				99DFC8F5205991B40099489E /* TicketCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99DFC8F2205986AE0099489E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99DFC8F3205986CD0099489E /* TicketModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C9EE2FB4D01C7E77CBF0C64C /* Frameworks */ = {
@@ -214,7 +247,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99DFC8F4205986CD0099489E /* TicketModel.swift in Sources */,
 				99628C012058F615001059CD /* ViewController.swift in Sources */,
+				99DFC8EF205985690099489E /* TicketController.swift in Sources */,
+				99DFC8F6205991B40099489E /* TicketCell.swift in Sources */,
 				99628BFF2058F615001059CD /* AppDelegate.swift in Sources */,
 				99628C112059194E001059CD /* FindTicketCell.swift in Sources */,
 			);
