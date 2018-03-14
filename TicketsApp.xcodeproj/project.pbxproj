@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99628BFF2058F615001059CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99628BFE2058F615001059CD /* AppDelegate.swift */; };
+		99628C012058F615001059CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99628C002058F615001059CD /* ViewController.swift */; };
+		99628C042058F615001059CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99628C022058F615001059CD /* Main.storyboard */; };
+		99628C062058F615001059CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99628C052058F615001059CD /* Assets.xcassets */; };
+		99628C092058F615001059CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99628C072058F615001059CD /* LaunchScreen.storyboard */; };
+		99628C112059194E001059CD /* FindTicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99628C102059194E001059CD /* FindTicketCell.swift */; };
+		A3ABE07439ACDBA846F5337E /* Pods_TicketsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A3E5602E023152993BE83C /* Pods_TicketsApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		159D0A4311255395F60F497F /* Pods-TicketsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TicketsApp/Pods-TicketsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8AEBBA143D66E7A9BE0B058B /* Pods-TicketsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TicketsApp/Pods-TicketsApp.release.xcconfig"; sourceTree = "<group>"; };
+		96A3E5602E023152993BE83C /* Pods_TicketsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicketsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99628BFB2058F615001059CD /* TicketsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99628BFE2058F615001059CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99628C002058F615001059CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99628C032058F615001059CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99628C052058F615001059CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99628C082058F615001059CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99628C0A2058F615001059CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99628C102059194E001059CD /* FindTicketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTicketCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99628BF82058F615001059CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3ABE07439ACDBA846F5337E /* Pods_TicketsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99628BF22058F614001059CD = {
+			isa = PBXGroup;
+			children = (
+				99628BFD2058F615001059CD /* TicketsApp */,
+				99628BFC2058F615001059CD /* Products */,
+				DAEDED7D921BA83087E437BC /* Pods */,
+				C9EE2FB4D01C7E77CBF0C64C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99628BFC2058F615001059CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99628BFB2058F615001059CD /* TicketsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99628BFD2058F615001059CD /* TicketsApp */ = {
+			isa = PBXGroup;
+			children = (
+				99628BFE2058F615001059CD /* AppDelegate.swift */,
+				99628C002058F615001059CD /* ViewController.swift */,
+				99628C022058F615001059CD /* Main.storyboard */,
+				99628C052058F615001059CD /* Assets.xcassets */,
+				99628C072058F615001059CD /* LaunchScreen.storyboard */,
+				99628C0A2058F615001059CD /* Info.plist */,
+				99628C102059194E001059CD /* FindTicketCell.swift */,
+			);
+			path = TicketsApp;
+			sourceTree = "<group>";
+		};
+		C9EE2FB4D01C7E77CBF0C64C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96A3E5602E023152993BE83C /* Pods_TicketsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAEDED7D921BA83087E437BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				159D0A4311255395F60F497F /* Pods-TicketsApp.debug.xcconfig */,
+				8AEBBA143D66E7A9BE0B058B /* Pods-TicketsApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99628BFA2058F615001059CD /* TicketsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99628C0D2058F615001059CD /* Build configuration list for PBXNativeTarget "TicketsApp" */;
+			buildPhases = (
+				D09E347C2A0B40BEC78B0933 /* [CP] Check Pods Manifest.lock */,
+				99628BF72058F615001059CD /* Sources */,
+				99628BF82058F615001059CD /* Frameworks */,
+				99628BF92058F615001059CD /* Resources */,
+				559F17EDFC230C42D064B5A7 /* [CP] Embed Pods Frameworks */,
+				B1A32D7ED2B9AFA8E196A8B0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicketsApp;
+			productName = TicketsApp;
+			productReference = 99628BFB2058F615001059CD /* TicketsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99628BF32058F614001059CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = salgara;
+				TargetAttributes = {
+					99628BFA2058F615001059CD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 99628BF62058F614001059CD /* Build configuration list for PBXProject "TicketsApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99628BF22058F614001059CD;
+			productRefGroup = 99628BFC2058F615001059CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99628BFA2058F615001059CD /* TicketsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99628BF92058F615001059CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99628C092058F615001059CD /* LaunchScreen.storyboard in Resources */,
+				99628C062058F615001059CD /* Assets.xcassets in Resources */,
+				99628C042058F615001059CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		559F17EDFC230C42D064B5A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicketsApp/Pods-TicketsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1A32D7ED2B9AFA8E196A8B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicketsApp/Pods-TicketsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D09E347C2A0B40BEC78B0933 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99628BF72058F615001059CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99628C012058F615001059CD /* ViewController.swift in Sources */,
+				99628BFF2058F615001059CD /* AppDelegate.swift in Sources */,
+				99628C112059194E001059CD /* FindTicketCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99628C022058F615001059CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99628C032058F615001059CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99628C072058F615001059CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99628C082058F615001059CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99628C0B2058F615001059CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99628C0C2058F615001059CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99628C0E2058F615001059CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159D0A4311255395F60F497F /* Pods-TicketsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2227K6LVL3;
+				INFOPLIST_FILE = TicketsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.salgara.TicketsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99628C0F2058F615001059CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AEBBA143D66E7A9BE0B058B /* Pods-TicketsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2227K6LVL3;
+				INFOPLIST_FILE = TicketsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.salgara.TicketsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99628BF62058F614001059CD /* Build configuration list for PBXProject "TicketsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99628C0B2058F615001059CD /* Debug */,
+				99628C0C2058F615001059CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99628C0D2058F615001059CD /* Build configuration list for PBXNativeTarget "TicketsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99628C0E2058F615001059CD /* Debug */,
+				99628C0F2058F615001059CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99628BF32058F614001059CD /* Project object */;
+}
